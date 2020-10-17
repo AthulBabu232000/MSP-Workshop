@@ -8,7 +8,7 @@ function cleardisplay(val)
 }
 function equalclick(val)
 {
-    var txt=document.getElementById("scr-txt").value
-    var result=eval(txt)
-    document.getElementById("scr-txt").value= result
+  var txt=document.getElementById("scr-txt").value
+  var result=eval(txt)
+  document.getElementById("scr-txt").value= result
 }
